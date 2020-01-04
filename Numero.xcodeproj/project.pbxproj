@@ -14,7 +14,7 @@
 		3052E85D201040F500F6F30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3052E85C201040F500F6F30B /* Assets.xcassets */; };
 		3052E884201041FA00F6F30B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E883201041FA00F6F30B /* Game.swift */; };
 		3052E8862010600D00F6F30B /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8852010600D00F6F30B /* Converter.swift */; };
-		3052E8882010950800F6F30B /* GameDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8872010950800F6F30B /* GameDoneViewController.swift */; };
+		3052E8882010950800F6F30B /* GameDoneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E8872010950800F6F30B /* GameDoneController.swift */; };
 		3052E88A20109EC900F6F30B /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3052E88920109EC900F6F30B /* ConverterTests.swift */; };
 		30833EE42014681A000488C0 /* Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30833EE32014681A000488C0 /* Shuffle.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +41,7 @@
 		3052E86C201040F500F6F30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3052E883201041FA00F6F30B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		3052E8852010600D00F6F30B /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
-		3052E8872010950800F6F30B /* GameDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDoneViewController.swift; sourceTree = "<group>"; };
+		3052E8872010950800F6F30B /* GameDoneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDoneController.swift; sourceTree = "<group>"; };
 		3052E88920109EC900F6F30B /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		30833EE32014681A000488C0 /* Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shuffle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +87,7 @@
 			children = (
 				3052E855201040F500F6F30B /* AppDelegate.swift */,
 				3052E857201040F500F6F30B /* ViewController.swift */,
-				3052E8872010950800F6F30B /* GameDoneViewController.swift */,
+				3052E8872010950800F6F30B /* GameDoneController.swift */,
 				3052E859201040F500F6F30B /* Main.storyboard */,
 				3052E85C201040F500F6F30B /* Assets.xcassets */,
 				18B65CBD20C09F3300BFC903 /* LaunchScreen.storyboard */,
@@ -213,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3052E8882010950800F6F30B /* GameDoneViewController.swift in Sources */,
+				3052E8882010950800F6F30B /* GameDoneController.swift in Sources */,
 				30833EE42014681A000488C0 /* Shuffle.swift in Sources */,
 				3052E858201040F500F6F30B /* ViewController.swift in Sources */,
 				3052E884201041FA00F6F30B /* Game.swift in Sources */,

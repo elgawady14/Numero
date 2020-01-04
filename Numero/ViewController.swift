@@ -69,7 +69,7 @@ class ViewController: UIViewController {
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "gameDoneSegue" {
-      if let destinationViewController = segue.destination as? GameDoneViewController {
+      if let destinationViewController = segue.destination as? GameDoneController {
         destinationViewController.score = score
       }
     }
