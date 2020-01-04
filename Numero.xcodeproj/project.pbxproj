@@ -445,7 +445,7 @@
 				3052E879201040F500F6F30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		3052E87A201040F500F6F30B /* Build configuration list for PBXNativeTarget "Numero" */ = {
 			isa = XCConfigurationList;
@@ -454,7 +454,7 @@
 				3052E87C201040F500F6F30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		3052E87D201040F500F6F30B /* Build configuration list for PBXNativeTarget "NumeroTests" */ = {
 			isa = XCConfigurationList;
@@ -463,7 +463,7 @@
 				3052E87F201040F500F6F30B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
