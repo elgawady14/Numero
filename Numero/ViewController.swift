@@ -142,10 +142,10 @@ private extension ViewController {
       converterLabel.textColor = .red
     }
     // Visual indicator of correctness
-    UIView.animate(withDuration: 0.5, animations: {
+    UIView.animate(withDuration: 0.6, animations: {
       self.converterLabel.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
     }, completion: { _ in
-      UIView.animate(withDuration: 0.5) {
+      UIView.animate(withDuration: 0.6) {
         self.converterLabel.transform = CGAffineTransform(scaleX: 1.0, y: 1.0)
       }
     })
