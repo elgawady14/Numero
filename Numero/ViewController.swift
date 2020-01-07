@@ -116,7 +116,7 @@ private extension ViewController {
       displayResults(result.correct)
     }
     DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(2000)) {
-        // test sth 2
+        // test sth 3
       if (self.game?.done())! {
         self.performSegue(withIdentifier: "gameDoneSegue", sender: nil)
       } else {
